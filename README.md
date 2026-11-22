@@ -105,3 +105,9 @@ Who made what is in [`LICENSING.md`](LICENSING.md).
   [kagaimiq's jielie notes and jl-uboot-tool](https://github.com/kagaimiq/jielie).
 - "M-VAVE" and "Tank-G" belong to their owners. "Felucca" and "Hügelton Instruments" are names of Hügelton
   Instruments. GHR AMBIENT isn't made or endorsed by any of them.
+
+## Like it?
+
+GHR AMBIENT is free. If it earned a spot on your board and you feel like it, you can
+[buy GerbilHamster Records a coffee on Ko-fi](https://ko-fi.com/gerbilhamsterrecords). Never expected, always
+appreciated.
