@@ -1,0 +1,37 @@
+GHR AMBIENT 0.11  (M-VAVE Tank-G v2 ambient board, GerbilHamster Records)   - everything is off at power-up
+
+FOOTSWITCHES
+  A  tap     GRAB: freeze the last few seconds into a cloud (pale blue, blooms in over ~4 s). Tap again = fades away (3 s, amber).
+             Tap during the fade = it comes back.
+  A  hold    LIVE CLOUD (bright purple): the cloud follows whatever you play, ~0.6 s+ behind you, dancing around it.
+             Tap = freeze it right there. Hold again = fade it out.
+             Hold on a frozen cloud = it comes back to life (old memory runs into the new playing).
+             While A is going, THE BENDER quietly adds a clone now and then (every 5-14 s): half speed, backwards,
+             double speed, a tape stop / tape start, or a little piece repeated a few times. (BEND + BREAK, no crunch)
+  B  tap     SPACE: huge reverb (switches when you let go)
+  B  hold    WET ONLY: the dry guitar fades out (ring magenta). Hold again = dry comes back.
+  C  SMEAR   a dark echo that never attacks: your notes swell into it (SWELL knob), each repeat blurrier.
+             Every 15-35 s its time gets a little random tug and eases back (a ~10-35 cent bend).
+  D  WARBLE  everything through an old tape: slow, random pitch drift (no chorus wobble, no tremolo)
+
+KNOBS  (panel label -> what it does now)
+  MASTER      output level (all the effects are summed first, then MASTER, then a soft limiter - nothing hard-clips)
+  RVB DECAY   reverb length (1.5 s .. a minute)
+  RVB MIX     reverb level
+  MOD SPEED   DRIFT  - how far/fast the cloud wanders (all the way down = still freeze)
+  IR CAB      SIZE   - grain length (small = sparkly, big = smeared)
+  DLY MIX     SMEAR level (+ repeats)
+  DLY TIME    SMEAR time (turning it bends the repeats)
+  MOD FX      NERVE  - wobble, wow, a little flutter, slow smooth level dips. Cloud/smear always; WARBLE's drift depth
+  VOLUME      CLOUD  - cloud level
+  GAIN        input level: noon = your guitar as it comes (into the compressor; top end saturates softly)
+  MIDDLE      START  - where in the memory the cloud sits (down = newest). Live cloud: how far behind you it trails
+  NOISE GATE  SWELL  - how slowly notes fade into SMEAR (down = plain repeats, up = ~3 s swells)
+  BASS        ROT    - how fast a frozen memory rots (all the way down = never; the live cloud doesn't rot)
+  TYPE        PITCH  - -oct | -oct+unison | unison | unison+5th+oct | +oct
+  TREBLE      TONE   - dark .. open, for everything wet
+
+ALWAYS ON (no knobs): compressor (2.5:1), EQ (+3 dB bass, mids a hair under, highs -2..-3 dB), gentle hiss reducer.
+
+Back to the factory firmware any time: 3_RESTORE_FACTORY.bat (your backup_... folder next to it).
+Getting into the loader by hand: unplug, HOLD footswitch A, plug in (hold 2 s). While it plays: A + D for 2 s.
